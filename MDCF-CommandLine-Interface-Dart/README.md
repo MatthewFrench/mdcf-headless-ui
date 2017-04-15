@@ -1,4 +1,4 @@
-* DART 
+* First run MDCF and devices. Second: 
 
 ** Once here, open command prompt and ran below command to setup the DART required libraries from pubspec.yaml
 
@@ -6,6 +6,6 @@
 
 ** Run the script with
 
-    dart main.dart localhost
+    dart locationTo/main.dart localhost
 
 
