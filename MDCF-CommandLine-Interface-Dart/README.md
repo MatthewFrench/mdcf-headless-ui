@@ -4,8 +4,8 @@
 
     pub get
 
-** After making any changes to .dart files, run the below command to build the javascripts
+** Run the script with
 
-    pub build
+    dart main.dart localhost
 
 
