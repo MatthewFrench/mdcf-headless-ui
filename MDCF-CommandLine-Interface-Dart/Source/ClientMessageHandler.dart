@@ -17,8 +17,9 @@ class ClientMessageHandler {
           //  Name
           //  Data
           String appName = m['App Name'];
+          String guid = m['App GUID'];
           for (App app in data.appController.apps) {
-            if (app.getName() == appName) {
+            if (app.getName() == appName && app.getGUID() == guid) {
               List componentList = m['Component List'];
               for (Map cMap in componentList) {
                 String componentName = cMap['Name'];
